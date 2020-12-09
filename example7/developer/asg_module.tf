@@ -1,5 +1,5 @@
 module "webapp" {
-  source           = "../example7"
+  source           = "../"
   region           = "us-east-1"
   max_size         = "1"
   min_size         = "1"
