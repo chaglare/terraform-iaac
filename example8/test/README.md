@@ -55,3 +55,5 @@ output "public_subnet3" {
 output "tags" {
     value = "${module.VPC.tags}"
 }
+
+```
