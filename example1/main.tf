@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 resource "aws_key_pair" "us-east-1-bastion-key" {
-  key_name   = "bastion-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgmc6t0WF5agG/ZUgCUGvJd7ydwGOEKTkj1BYHjMjKBF9MYTzL+LFEFi+r+WEqt1muDmU5KqW7idAVOV9v8Gp9ya3/ZV1Ev2+8VjZKCogLxToQDP+ZpzBEgazqIWwob5D98CIwl8GE1Cv4VMosqp0aTZPrs5UPuZgdS7daoN5/6w/l7NsCz/D6iL3YUjLzYFb/JVXAUlo94P+byIAqwwvxSWl0GVv6j4Bmq8z0clM0YciftAIyIlfXIJtkOdafagfLehZGOm17arCcZZoGRvi5r6iEhR8nIG7v0mfQx75l+e9iysAS+lXChNmgOLGNlZg4ou+hZLpoYVJT2G8IFz7d ec2-user@bastion"
+  key_name   = "packer_bastion"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvSn/wB4uU1RnT8d7I47aclcbFStIiJeFevmdDtIKgQDgNhiRWC91ZZarnMKFmK4tp+MCDlapqd/x4ArvXG2jOXY8RZ+xZioWnqfzAltSmfCJVaMKilgGCjLHOpj+KiVGWOUbPsDSW4P6e2i/CNMyUThOkkpMASuB+21HPFur6tURCutoTL5d/YvzK+cABXZ6RbIluTzL+ozbdBGl/+bE3ojeXNIqXMmCY6g4jIFzIOgiQ+sXSbLKy5un5JaDVb9/+BGHdQElhpNORcSsv45iUJoCtk1TLjRtwwmVmQ2axTGx8ZixMkqD6k9vJfhKYoGuMZguT72kWWF82rRUMhbq9 caglar@ip-172-31-24-18.ec2.internal"
 }
