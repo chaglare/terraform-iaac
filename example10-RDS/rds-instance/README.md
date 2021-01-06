@@ -1,13 +1,13 @@
-# Module to create RDS
+# Module to create RDS instance
 ## Create a file and add the following
 ```
 module "db" {
 source = "./example10"
 region = "us-east-1"
 subnet_ids = [
-"subnet-0764b3812f98463f4", 
-"subnet-01a630df412c0aab8", 
-"subnet-07655cc9da49d8de5"
+  "subnet-e91e8ad7",
+  "subnet-e3c4d4a9",
+  "subnet-8080cddc"
 ]
 security_group_name = "db"
 allowed_hosts = [
