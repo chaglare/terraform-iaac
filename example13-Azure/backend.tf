@@ -4,7 +4,7 @@
 #     storage_account_name = "dev1caglar"
 #     container_name       = "tfstate"
 #     key                  = "prod.terraform.tfstate"
-#     access_key           = "4nHEQKEoU380P1nCfgF2zAKtRDXqw+nhQsDFanQrYFIia6mktTDDsPWpT0QvoHv94GeiRqxKV/kP4FS6p7DYfA=="
+#     access_key           = "ADD YOUR ACCESS KEY HERE AND DON'T PUSH YOUR backend.tf to your public repo"
 #   }
 # }
 
