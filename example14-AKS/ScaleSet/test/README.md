@@ -3,7 +3,7 @@
 
 ```
 module "ss" {
-    source                  = "chaglare/aks/ss"
+    source                  = "chaglare/scaleset/azure"
     resource_group_name     = "example-resources"
     resource_group_location = "West Europe"
     ss_name                 = "example-ss"
