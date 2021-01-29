@@ -3,11 +3,11 @@
 
 ```
 module "ss" {
-    source                  = "farrukh/aks/ss"
+    source                  = "chaglare/aks/ss"
     resource_group_name     = "example-resources"
     resource_group_location = "West Europe"
     ss_name                 = "example-ss"
-    admin_username          = "admin"
+    admin_username          = "adminuser"
     instances               = 1
     sku                     = "Standard_F2"
     address_prefixes        = ["10.0.2.0/24"]
