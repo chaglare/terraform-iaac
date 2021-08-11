@@ -1,5 +1,5 @@
 data "google_billing_account" "acct" {
-	display_name = "terraform_gcp_class"
+	display_name = "terraform_gcp"
 	open = true
 }
 
@@ -12,7 +12,7 @@ resource "random_password" "password" {
 }
 
 resource "google_project" "terraform" {
-	name = "testproject2"
+	name = "testproject"
 	project_id = random_password.password.result
 	billing_account = data.google_billing_account.acct.id
 }
