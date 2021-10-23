@@ -2,7 +2,7 @@
 
 ### Terraform code takes values. Provide those codes inside your tfvars file
 ```
-cluster_name                                    = "my-cluster"
+cluster_name                                    = "eks"
 cluster_version                                 = "1.15"
 subnets                                         = ["subnet-00000", "subnet-00000", "subnet-00000"]
 vpc_id                                          = "vpc-0000000000"
@@ -16,19 +16,19 @@ region                                          = "us-east-2"
 
 ```
 output "cluster_id" {
-	value = "${module.my-cluster.cluster_id}"
+	value = "${module.eks.cluster_id}"
 }
 output "cluster_arn" {
-	value = "${module.my-cluster.cluster_arn}"
+	value = "${module.eks.cluster_arn}"
 }
 output "cluster_version" {
-	value = "${module.my-cluster.cluster_version}"
+	value = "${module.eks.cluster_version}"
 }
 output "cluster_security_group_id" {
-	value = "${module.my-cluster.cluster_security_group_id}"
+	value = "${module.eks.cluster_security_group_id}"
 }
 output "workers_asg_names" {
-	value = "${module.my-cluster.workers_asg_names}"
+	value = "${module.eks.workers_asg_names}"
 }
 ```
 

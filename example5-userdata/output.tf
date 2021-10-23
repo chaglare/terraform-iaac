@@ -30,9 +30,9 @@ output "PIP2" {
     value = "${aws_instance.web2.public_ip}"
 }
 
-output "DNS" {
-value = "${aws_route53_record.www.name}"
-}
+# output "DNS" {
+# value = "${aws_route53_record.www.name}"
+# }
 
 output "my_output" {
     value = "my message"
